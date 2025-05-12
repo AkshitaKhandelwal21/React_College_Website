@@ -1,4 +1,5 @@
 import React from 'react'
+import Line from './Line'
 
 const Navbar = () => {
     return (
@@ -18,10 +19,8 @@ const Navbar = () => {
                     <a href="">Contact</a>
                 </div>
             </div>
-            <div className='px-12'>
-                <hr />
-            </div>
-
+            
+            <Line/>
 
         </div>
     )
