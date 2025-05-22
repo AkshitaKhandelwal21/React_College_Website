@@ -1,9 +1,9 @@
 import React from 'react'
 import Line from './Line'
 
-const Navbar = () => {
+const Navbar = () => {  
     return (
-        <div className='bg-gray-300'>
+        <div className='bg-gray-300 sticky top-0 z-2'>
 
             <div className='py-6 px-12 flex justify-between items-center'>
                 <h1 className='text-2xl font-semibold flex flex-col'>

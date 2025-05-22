@@ -1,4 +1,5 @@
 import React from 'react'
+import ReadMoreButton from './ReadMoreButton'
 
 const Intro = () => {
     return (
@@ -36,9 +37,7 @@ const Intro = () => {
                             Make your company stand out and show your visitors who you are.
                         </p>
                     </div>
-                    <div className='flex justify-center p-12'>
-                        <button className='bg-blue-700 text-white px-4 py-2'>Read More</button>
-                    </div>                
+                    <ReadMoreButton />
                     </div>
             </div>
             <br />

@@ -4,6 +4,10 @@ import Line from './Line'
 const Footer1 = () => {
     return (
         <div className='bg-gray-300'>
+            <div className='py-8 flex items-center justify-center relative'>
+                <img src="https://static.wixstatic.com/media/ad420a_09dccc8140d043d4964f34bb8c813c53~mv2.jpg/v1/fill/w_1191,h_533,al_b,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ad420a_09dccc8140d043d4964f34bb8c813c53~mv2.jpg" 
+                alt="" />
+            </div>
             <div className='flex justify-center'>
                 <div className='items-center w-84'>
                     <h2 className='font-semibold text-center text-xl'>
